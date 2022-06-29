@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "repository-examples"
+version = "1.0.0"
+description = ""
+authors = ["excpt"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+dependency_injector = "=4.37.0"
+yoyo-migrations = "^7.3.1"
+aiohttp = ">=3.6.2"
+databases = ">=0.3.2,<0.6.0"
+asyncpg = "^0.25.0"
+uvloop = "^0.16.0"
